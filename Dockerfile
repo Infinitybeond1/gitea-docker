@@ -9,4 +9,5 @@ RUN useradd --no-create-home --shell=/bin/false build && usermod -L run
 EXPOSE 22 3000
 
 USER run
+
 CMD ["gitea", "web"]
